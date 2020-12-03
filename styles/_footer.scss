@@ -1,0 +1,18 @@
+footer{
+    height: 130px;
+    width: 100%;
+    background-color: $primary-color;
+    ul{
+        float: right;
+        list-style-type: none;
+        display: flex;
+        li{
+            margin: 8px;
+            margin-top: 50px;
+        }
+    }
+    img{
+        height: 30px;
+        width: 30px;
+    }
+}

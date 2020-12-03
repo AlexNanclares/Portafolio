@@ -1,0 +1,64 @@
+main{
+    .contenedor{
+        height: 2300px;
+        background-color: #E3E3E3;
+        position: relative;    
+    }
+    h1{
+        padding-top: 100px;
+        text-align: center;
+        font-size: $titles-size-main;
+     }
+    #four{
+        height: 250px;
+    }
+    .div-default{
+        margin-top: 20px;
+        height: 180px;
+        width: 900px;
+        background-color: $secundary-color;
+        position: relative;
+        left: 21%;
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+    form{
+        background-color: $secundary-color;
+        position: relative;
+        left: 26%;
+        margin-top: 50px;
+        width: 720px;
+        height: 415px;
+        padding-top: 20px;
+        padding-left: 50px;
+        border-radius: 10px;
+    }
+    .input-contacto{
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 10px;
+        &:hover{
+            border: 2px solid $primary-color;
+        }
+        &:focus{
+            border: 2px solid $primary-color;
+        }
+    }
+    .size{
+        height: 25px;
+        width: 250px;
+    }
+    #enviar{
+        margin-top: 10px;
+        height: 20px;
+        width: 100px;
+        color: white;
+        background-color:$primary-color;
+        border-radius: 10px;
+        &:hover{
+            background-color: $hover-color;
+        }
+    }
+}
